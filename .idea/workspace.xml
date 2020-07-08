@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7acec930-5406-40ef-9195-405b6c54c605" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="0c9670c0-eab5-4bff-b6fc-ba0a772f3a36" />
+  <component name="ProjectId" id="1bk7NB6k961kQpBEPdsbI8tSVFd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ABC\PycharmProjects\X_ray Diagnosis\static\uploads" />
+      <recent name="C:\Users\ABC\PycharmProjects\X_ray Diagnosis\uploads" />
+      <recent name="C:\Users\ABC\PycharmProjects\X_ray Diagnosis\templates\admin" />
+      <recent name="C:\Users\ABC\PycharmProjects\X_ray Diagnosis" />
+      <recent name="C:\Users\ABC\PycharmProjects\X_ray Diagnosis\static\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ABC\PycharmProjects\X_ray Diagnosis\templates\admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.X_ray Diagnosis">
+    <configuration name="Flask (appml.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="X_ray Diagnosis" />
+      <option name="target" value="$PROJECT_DIR$/appml.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="X_ray Diagnosis" type="Python.FlaskServer">
+      <module name="X_ray Diagnosis" />
+      <option name="target" value="$PROJECT_DIR$/appml.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (appml.py)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7acec930-5406-40ef-9195-405b6c54c605" name="Default Changelist" comment="" />
+      <created>1589164194293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589164194293</updated>
+      <workItem from="1589164250233" duration="1743000" />
+      <workItem from="1589166981027" duration="119000" />
+      <workItem from="1589167127097" duration="4490000" />
+      <workItem from="1589185547104" duration="1221000" />
+      <workItem from="1589186875342" duration="60000" />
+      <workItem from="1589187006858" duration="822000" />
+      <workItem from="1589191183962" duration="1009000" />
+      <workItem from="1589203739787" duration="1504000" />
+      <workItem from="1589540744081" duration="334000" />
+      <workItem from="1589621684523" duration="1126000" />
+      <workItem from="1589625692980" duration="195000" />
+      <workItem from="1589639980800" duration="5359000" />
+      <workItem from="1589773167655" duration="206000" />
+      <workItem from="1589787990776" duration="4228000" />
+      <workItem from="1589820419485" duration="1923000" />
+      <workItem from="1589867456534" duration="2815000" />
+      <workItem from="1590074443313" duration="679000" />
+      <workItem from="1590936721277" duration="692000" />
+      <workItem from="1591243200956" duration="117000" />
+      <workItem from="1591457524871" duration="283000" />
+      <workItem from="1591461692825" duration="59000" />
+      <workItem from="1591461776852" duration="17000" />
+      <workItem from="1592839810871" duration="2406000" />
+      <workItem from="1592924733003" duration="2182000" />
+      <workItem from="1592926936763" duration="933000" />
+      <workItem from="1592927900216" duration="1551000" />
+      <workItem from="1592929473166" duration="507000" />
+      <workItem from="1592930009806" duration="3427000" />
+      <workItem from="1592969368849" duration="58000" />
+      <workItem from="1592993596206" duration="197000" />
+      <workItem from="1592996220293" duration="775000" />
+      <workItem from="1593254184345" duration="120000" />
+      <workItem from="1593707894688" duration="299000" />
+      <workItem from="1593708508455" duration="1208000" />
+      <workItem from="1593744708759" duration="894000" />
+      <workItem from="1593941028557" duration="7550000" />
+      <workItem from="1593958869175" duration="9287000" />
+      <workItem from="1593970895725" duration="1363000" />
+      <workItem from="1594000904787" duration="6699000" />
+      <workItem from="1594026878996" duration="699000" />
+      <workItem from="1594041105740" duration="167000" />
+      <workItem from="1594042941267" duration="11862000" />
+      <workItem from="1594087843700" duration="7861000" />
+      <workItem from="1594109090395" duration="10216000" />
+      <workItem from="1594129194763" duration="14555000" />
+      <workItem from="1594174765189" duration="2502000" />
+    </task>
+    <task id="LOCAL-00001" summary="update GUI">
+      <created>1593945764826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593945764826</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="update GUI" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Inspections" timestamp="1589164689957">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1589164689957" />
+    <state x="361" y="72" key="#Log_Highlighting_(ideolog)" timestamp="1592930061799">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Log_Highlighting_(ideolog)/0.0.1536.824@0.0.1536.824" timestamp="1592930061799" />
+    <state x="361" y="72" key="#Notifications" timestamp="1594175944172">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594175944172" />
+    <state x="508" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589164765862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="508" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1589164765862" />
+    <state x="517" y="250" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1592930071251">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="517" y="250" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1592930071251" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594120666055">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594120666055" />
+    <state x="289" y="8" key="CommitChangelistDialog2" timestamp="1593945763115">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="289" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593945763115" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1594175674506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594175674506" />
+    <state x="632" y="307" key="Github.ShareDialog" timestamp="1594175932056">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="632" y="307" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1594175932056" />
+    <state x="648" y="119" key="Github.UntrackedFilesDialog" timestamp="1593946445200">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="648" y="119" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593946445200" />
+    <state width="897" height="204" key="GridCell.Tab.0.bottom" timestamp="1592927871713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="897" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592927871713" />
+    <state width="897" height="204" key="GridCell.Tab.0.center" timestamp="1592927871713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="897" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592927871713" />
+    <state width="897" height="204" key="GridCell.Tab.0.left" timestamp="1592927871713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="897" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592927871713" />
+    <state width="897" height="204" key="GridCell.Tab.0.right" timestamp="1592927871713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="897" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592927871713" />
+    <state x="474" y="112" key="SettingsEditor" timestamp="1594138681601">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="474" y="112" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594138681601" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1593946534767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593946534767" />
+    <state x="576" y="100" width="866" height="624" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594094399593">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="576" y="100" width="866" height="624" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1594094399593" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1594175013975">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594175013975" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593946624909">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1593946624908" />
+    <state x="760" y="-118" width="609" height="804" key="find.popup" timestamp="1594003754888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="760" y="-118" width="609" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594003754888" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="jinja2-line">
+          <url>file://$PROJECT_DIR$/templates/index.html</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/X_ray_Diagnosis$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1592927755366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

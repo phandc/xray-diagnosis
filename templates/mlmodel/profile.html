@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="description" content="Bootstrap Admin App + jQuery">
+   <meta name="keywords" content="app, responsive, jquery, bootstrap, dashboard, admin">
+   <title>HospitalManagementSystem</title>
+   <!-- =============== VENDOR STYLES ===============-->
+   <!-- FONT AWESOME-->
+   <link rel="stylesheet" href="../../static/vendor/fontawesome/css/font-awesome.min.css">
+   <!-- SIMPLE LINE ICONS-->
+   <link rel="stylesheet" href="../../static/vendor/simple-line-icons/css/simple-line-icons.css">
+   <!-- ANIMATE.CSS-->
+   <link rel="stylesheet" href="../../static/vendor/animate.css/animate.min.css">
+   <!-- WHIRL (spinners)-->
+   <link rel="stylesheet" href="../../static/vendor/whirl/dist/whirl.css">
+   <!-- =============== PAGE VENDOR STYLES ===============-->
+   <!-- =============== BOOTSTRAP STYLES ===============-->
+   <link rel="stylesheet" href="../../static/app/css/bootstrap.css" id="bscss">
+   <!-- =============== APP STYLES ===============-->
+   <link rel="stylesheet" href="../../static/app/css/app.css" id="maincss">
+     <link href="{{ url_for('static', filename='app/css/main.css') }}" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+
+
+   <!--Xray -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='app/css/main.css') }}" rel="stylesheet">
+
+   <style>
+      a:hover{
+       text-decoration: none!important;
+      }
+
+   </style>
+</head>
+
+<body class="layout-h">
+   <div class="wrapper">
+      <!-- top navbar-->
+      <header class="topnavbar-wrapper">
+         <!-- START Top Navbar-->
+         <nav role="navigation" class="navbar topnavbar">
+            <!-- START navbar header-->
+            <div class="navbar-header">
+               <a href="/admin/" class="navbar-brand">
+                  <div class="brand-logo">
+                     HospitalManagementSystem
+                  </div>
+                  <div class="brand-logo-collapsed">
+                     <img src="/static/app/img/logo-single.png" alt="App Logo" class="img-responsive">
+                  </div>
+               </a>
+
+              <a href="/logout" style="color: #0a1115">Logout</a>
+            </div>
+
+            <!-- END navbar header-->
+            <!-- START Nav wrapper-->
+            <div class="nav-wrapper">
+
+            </div>
+            <!-- END Nav wrapper-->
+            <!-- START Search form-->
+
+         </nav>
+         <!-- END Top Navbar-->
+      </header>
+      <!-- sidebar-->
+
+      <!-- offsidebar-->
+
+      <!-- Main section-->
+
+         <!-- Page content-->
+  <div class="row">
+           <div class="col-md-4">
+
+<div class="panel panel-default">
+  <div class="panel-heading">  <h4 >Patient Profile</h4></div>
+   <div class="panel-body">
+
+    <div class="box box-info">
+
+            <div class="box-body">
+                     <div class="col-sm-6">
+                     <div  align="center"> <img alt="User Pic" src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg" id="profile-image1" class="img-circle img-responsive">
+
+                <input id="profile-image-upload" class="hidden" type="file">
+                <!--Upload Image Js And Css-->
+
+
+
+
+
+
+
+                     </div>
+
+              <br>
+
+              <!-- /input-group -->
+                                {% for row in patient%}
+            </div>
+            <div class="col-sm-6">
+            <h4 style="color:#00b1b1;">{{row.pat_first_name}} {{ row.pat_last_name}}</h4></span>
+            </div>
+            <div class="clearfix"></div>
+            <hr style="margin:5px 0 5px 0;">
+
+
+<div class="col-sm-5 col-xs-6 tital " >First Name:</div><div class="col-sm-7 col-xs-6 ">{{ row.pat_first_name}} </div>
+     <div class="clearfix"></div>
+<div class="bot-border"></div>
+
+
+<div class="col-sm-5 col-xs-6 tital " >Last Name:</div><div class="col-sm-7">{{row.pat_last_name}}</div>
+  <div class="clearfix"></div>
+<div class="bot-border"></div>
+
+<div class="col-sm-5 col-xs-6 tital " >Insurance Number:</div><div class="col-sm-7">{{row.pat_insurance_no}}</div>
+
+  <div class="clearfix"></div>
+<div class="bot-border"></div>
+
+<div class="col-sm-5 col-xs-6 tital " >Address:</div><div class="col-sm-7">{{row.pat_address }}</div>
+
+  <div class="clearfix"></div>
+<div class="bot-border"></div>
+
+<div class="col-sm-5 col-xs-6 tital " >Phone:</div><div class="col-sm-7">{{row.pat_ph_no }}</div>
+
+                {% endfor %}
+
+
+
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+
+        </div>
+
+
+    </div>
+         </div>
+           </div>
+
+  </div>
+
+   <div class="row">
+        <div class="col-md-6">
+            <div class="container">
+        <div id="content" >
+            <h2>Upload Your Image</h2>
+
+<div>
+    <form  id="upload-file" method="POST" enctype="multipart/form-data">
+        <label for="imageUpload" class="upload-label">
+            Upload...
+        </label>
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+    </form>
+
+    <div class="image-section" style="display:none;">
+        <div class="img-preview">
+            <div id="imagePreview">
+            </div>
+        </div>
+         <div>
+            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
+        </div>
+
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+
+
+    <form >
+
+    <input  id="result" size="16" type="text" value="" readonly>
+
+
+
+
+        </form>
+    <ul id="therapy">
+
+
+    </ul>
+
+     <button type="button" class="btn btn-primary btn-lg " id="btn-add_pred">Save Info</button>
+
+           <div id="successAlert" class="alert alert-success alert-dismissible " role="alert">
+                 <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                 <span aria-hidden="true">x</span>
+                </button>
+               </div>
+
+</div>
+            </div>
+
+        </div>
+
+    </div>
+   </div>
+
+
+  </div>
+
+      <!-- Page footer-->
+      <footer>
+         <span>&copy; 2020 - Hospital Management System</span>
+      </footer>
+   </div>
+
+
+
+
+
+   <!-- =============== VENDOR SCRIPTS ===============-->
+   <!-- MODERNIZR-->
+
+   <!-- BOOTSTRAP-->
+   <script src="../../static/vendor/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+              $(function() {
+    $('#profile-image1').on('click', function() {
+        $('#profile-image-upload').click();
+    });
+});
+              </script>
+<script src="{{ url_for('static', filename='app/js/main.js') }}" type="text/javascript"></script>
+
+</body>
+
+</html>
