@@ -32,7 +32,8 @@
 <body class="layout-h">
    <div class="wrapper">
       <!-- top navbar-->
-     <header class="topnavbar-wrapper">
+       {% block navbar %}
+      <header class="topnavbar-wrapper">
          <!-- START Top Navbar-->
          <nav role="navigation" class="navbar topnavbar">
             <!-- START navbar header-->
@@ -72,66 +73,23 @@
 
          <!-- END Top Navbar-->
       </header>
-
       <!-- sidebar-->
-
+      {%  endblock %}
       <!-- offsidebar-->
 
       <!-- Main section-->
+
+     {% block content %}
       <section>
-         <!-- Page content-->
-         <div class="content-wrapper">
-            <div class="content-heading">
-               <!-- START Language list-->
 
-               <!-- END Language list    -->
-               <i class="fa fa-dashboard">Dashboard</i>
-               <small data-localize="dashboard.WELCOME"></small>
-            </div>
-            <div class="row">
-             <div class="row">
-               <div class="col-lg-4 col-md-6">
-                  <!-- START widget-->
-                  <a href="./patient">
-                  <div class="panel widget bg-success">
-                     <div class="row row-table">
-                        <div class="col-xs-4 text-center bg-success-dark pv-lg">
-                           <i class="fa fa-wheelchair" style="font-size:48px;"></i>
-                        </div>
-                        <div class="col-xs-8 pv-lg">
-                           <div class="h1 m0 text-bold" id="patientcount">{{ numPat }}</div>
-                           <div class="text-uppercase">Patient</div>
-                        </div>
-                     </div>
-                  </div>
-                     </a>
-               </div>
 
-                  <div class="col-lg-4 col-md-6">
-                  <a href="./appointment">
-                  <!-- START widget-->
-                  <div class="panel widget bg-primary">
-                     <div class="row row-table">
-                        <div class="col-xs-4 text-center bg-primary-dark pv-lg">
-                           <em class="icon-pencil fa-3x"></em>
-                        </div>
-                        <div class="col-xs-8 pv-lg">
-                           <div class="h1 m0 text-bold" id="appointmentcount">{{ numAppoint}}</div>
-                           <div class="text-uppercase">Appointment</div>
-                        </div>
-                     </div>
-                  </div>
-                     </a>
-               </div>
-
-            </div>
-            </div>
-         </div>
       </section>
+    {% endblock %}
       <!-- Page footer-->
       <footer>
          <span>&copy; 2020 - Hospital Management System</span>
       </footer>
+
    </div>
 
    <!-- =============== VENDOR SCRIPTS ===============-->

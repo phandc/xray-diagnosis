@@ -57,7 +57,9 @@ def login():
 def index():
     return render_template('admin/index.html')
 
-
+@app.route('/index')
+def index1():
+    return render_template('admin/index_test.html')
 
 
 # @app.route('/doctorpage')

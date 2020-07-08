@@ -7943,3 +7943,36 @@ fieldset[disabled] .flatdoc-wrapper .button.focus {
   color: #23b7e5;
   background-color: #ffffff;
 }
+
+
+
+
+
+
+#welcome {
+    display: block;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#logout {
+
+  background-color: #f44336; /* Green */
+  border: solid 1px;
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;;
+
+
+}
+#logout:hover {
+  background-color: #4cae4c; /* Green */
+  color: white;
+}

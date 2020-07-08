@@ -51,7 +51,7 @@ def admin():
     print("++++++")
     print(session['user'])
     print(getAppointmentCount['appointment'])
-    return render_template('admin/index.html',  numPat=getPatientCount['patient'], numDoc=getDoctorCount['doctor'], numAppoint=getAppointmentCount['appointment'])
+    return render_template('admin/index.html',  numPat=getPatientCount['patient'], numDoc=getDoctorCount['doctor'], numAppoint=getAppointmentCount['appointment'], user=session['user'])
 
 
 

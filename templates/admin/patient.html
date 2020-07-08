@@ -36,38 +36,49 @@
          <nav role="navigation" class="navbar topnavbar">
             <!-- START navbar header-->
             <div class="navbar-header">
-               <a href="/admin" class="navbar-brand">
+               <a href="/admin/" class="navbar-brand">
                   <div class="brand-logo">
                      HospitalManagementSystem
                   </div>
                   <div class="brand-logo-collapsed">
-                     <img src="../static/app/img/logo-single.png" alt="App Logo" class="img-responsive">
+                     <img src="static/app/img/logo-single.png" alt="App Logo" class="img-responsive">
                   </div>
                </a>
+
+
             </div>
+
             <!-- END navbar header-->
             <!-- START Nav wrapper-->
-            <div class="nav-wrapper">
 
+            <div class="navbar-right" style="padding: 10px 20px;">
+                <button id="logout" >
+                      <a class="nav-link" href="/logout" style="color: #ffffff;">LOGOUT</a>
+                </button>
+
+            </div>
+
+               <div class="navbar-right" style="padding-right: 25px">
+
+                 <a class="nav-link" href="#" id="welcome">Hello, {{ user }}</a>
             </div>
             <!-- END Nav wrapper-->
             <!-- START Search form-->
-            <form role="search" action="search.html" class="navbar-form">
-               <div class="form-group has-feedback">
-                  <input type="text" placeholder="Type and hit enter ..." class="form-control">
-                  <div data-search-dismiss="" class="fa fa-times form-control-feedback"></div>
-               </div>
-               <button type="submit" class="hidden btn btn-default">Submit</button>
-            </form>
+
             <!-- END Search form-->
          </nav>
+
+
          <!-- END Top Navbar-->
       </header>
+
+
       <!-- sidebar-->
 
       <!-- offsidebar-->
 
       <!-- Main section-->
+
       <section>
          <!-- Page content-->
          <div class="content-wrapper">
@@ -231,8 +242,9 @@
 
       <!-- Page footer-->
       <footer>
-         <span>&copy; 2019 - Hospital Management System</span>
+         <span>&copy; 2020 - Hospital Management System</span>
       </footer>
+
    </div>
 
 

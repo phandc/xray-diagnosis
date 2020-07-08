@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7acec930-5406-40ef-9195-405b6c54c605" name="Default Changelist" comment="" />
+    <list default="true" id="7acec930-5406-40ef-9195-405b6c54c605" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/admin/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/doctor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/app/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/uploads/person1946_bacteria_4874.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/uploads/person1951_bacteria_4882.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/appointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/doctor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/patient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctor/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/appointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctor/doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/doctor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctor/patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/patient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctor/patientInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/patientInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mlmodel/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mlmodel/profile.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/uploads" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -150,7 +170,9 @@
       <workItem from="1594087843700" duration="7861000" />
       <workItem from="1594109090395" duration="10216000" />
       <workItem from="1594129194763" duration="14555000" />
-      <workItem from="1594174765189" duration="2502000" />
+      <workItem from="1594174765189" duration="8048000" />
+      <workItem from="1594199269403" duration="8868000" />
+      <workItem from="1594215761053" duration="10043000" />
     </task>
     <task id="LOCAL-00001" summary="update GUI">
       <created>1593945764826</created>
@@ -190,10 +212,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="517" y="250" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1592930071251" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594120666055">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594215895958">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594120666055" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594215895958" />
     <state x="289" y="8" key="CommitChangelistDialog2" timestamp="1593945763115">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -234,22 +256,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593946534767" />
-    <state x="576" y="100" width="866" height="624" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594094399593">
+    <state x="576" y="100" width="866" height="624" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594216362975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="576" y="100" width="866" height="624" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1594094399593" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1594175013975">
+    <state x="576" y="100" width="866" height="624" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1594216362975" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1594215794996">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594175013975" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594215794996" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593946624909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1593946624908" />
-    <state x="760" y="-118" width="609" height="804" key="find.popup" timestamp="1594003754888">
+    <state x="760" y="-118" width="740" height="804" key="find.popup" timestamp="1594223367326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="760" y="-118" width="609" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594003754888" />
+    <state x="760" y="-118" width="740" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594223367326" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

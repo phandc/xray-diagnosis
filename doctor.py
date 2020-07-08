@@ -42,11 +42,13 @@ def view(id):
     print("<---->")
     print(patientID)
     pat = conn.execute("SELECT * FROM patient WHERE pat_id=?", (id,)).fetchall()
-    print(pat)
+    diag = conn.execute("SELECT * FROM diagnosis WHERE pat_id=?", (id,)).fetchall()
+    print(diag)
+    #print(pat)
 
-    full_filename = os.path.join('/',PATIENT_IMAGES, '3.jpeg')
+    full_filename = os.path.join('/',PATIENT_IMAGES, 'patient_' + patientID+'.jpeg')
     print(full_filename)
-    return render_template('doctor/patientInfo.html', patients = pat, pat_image = full_filename)
+    return render_template('doctor/patientInfo.html', patients = pat, pat_image = full_filename, result = diag[0]['prediction'])
 
 
 
