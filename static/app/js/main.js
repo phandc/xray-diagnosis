@@ -2,7 +2,7 @@ $(document).ready(function () {
     // Init
     $('.image-section').hide();
     $('.loader').hide();
-    $('#result').hide();
+    $('#resultform').hide()
     $('#btn-add_pred').hide()
     $('#successAlert').hide()
 
@@ -14,11 +14,21 @@ $(document).ready(function () {
 
         if(data == 'bacteria'){
 
-            $('#therapy').append('<li>Just treatment at home</li>')
+            $('#therapy').text("Suggestion treatment for bacterial pneumonia:\n" +
+                "+ Antibiotic.\n" +
+                "+ Additional medications such as over-the-counter (OTC) drugs to ease aches and pains, as well as reducing fever.\n" +
+                "+ Home care will often include rest and drinking plenty of fluids. \n" +
+                "+ Be sure to finish a course of antibiotic therapy according to the doctor’s prescription, even if symptoms have improved.\n" +
+                "+ As a precaution, those who have an increased risk of complications, include people over 65 years or under 2 months of age may also benefit from admission to enable closer monitoring.\n" +
+                "\n")
 
         }
         else if(data == 'virus'){
-             $('#therapy').append('<li>Go to hospital</li>')
+             $('#therapy').text("Suggestion treatment for virus pneumonia:\n" +
+                 '+ Antiviral drugs.\n' +
+                 '+ Plenty of rest.\n' +
+                 '+ Drink fluid, take OTC medicines to ease fever and pain.\n' +
+                 '+ Go to hospital if had chest pain or difficult breathing.')
         }
 
     }
@@ -50,7 +60,8 @@ $(document).ready(function () {
     // Predict
     $('#btn-predict').click(function () {
 
-
+       $('#therapy').text('')
+        $('#btn-add_pred').hide()
 
         var form_data = new FormData($('#upload-file')[0]);
 
@@ -78,8 +89,7 @@ $(document).ready(function () {
 
                 document.getElementById('result').value = 'Result : ' + data
                 showTherapy(data)
-                $('#therapy').show()
-
+                $('#resultform').show()
 
                 $('#btn-add_pred').show()
             },
@@ -92,7 +102,8 @@ $(document).ready(function () {
 
         $.ajax({
             data: {
-                predict : $('#result').val()
+                predict : $('#result').val(),
+                suggestion   : $('#therapy').val()
             }
             ,
             type: 'POST',

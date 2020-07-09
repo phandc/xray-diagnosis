@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7acec930-5406-40ef-9195-405b6c54c605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/admin/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/app/js/patientInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/doctor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/app/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/person1946_bacteria_4874.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/person1951_bacteria_4882.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/appointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/doctor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/app/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/patient.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/doctor/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/appointment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/doctor/doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/doctor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/doctor/patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/patient.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/doctor/patientInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/patientInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/mlmodel/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mlmodel/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +27,7 @@
       <list>
         <option value="Flask Main" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -172,7 +168,10 @@
       <workItem from="1594129194763" duration="14555000" />
       <workItem from="1594174765189" duration="8048000" />
       <workItem from="1594199269403" duration="8868000" />
-      <workItem from="1594215761053" duration="10043000" />
+      <workItem from="1594215761053" duration="10431000" />
+      <workItem from="1594261982071" duration="6547000" />
+      <workItem from="1594283790310" duration="6433000" />
+      <workItem from="1594303572236" duration="5772000" />
     </task>
     <task id="LOCAL-00001" summary="update GUI">
       <created>1593945764826</created>
@@ -260,10 +259,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="100" width="866" height="624" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1594216362975" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1594215794996">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1594309663799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594215794996" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594309663799" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593946624909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

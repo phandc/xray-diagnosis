@@ -62,7 +62,7 @@ def patient():
 
     data = conn.execute("SELECT * FROM patient  ORDER BY pat_id ASC").fetchall()
     # print(data)
-    return render_template('admin/patient.html', patients=data)
+    return render_template('admin/patient.html', patients=data, user=session['user'])
 
 
 @admin1.route('/add', methods=['POST'])
@@ -122,7 +122,7 @@ def view(id):
     print(pat)
 
 
-    return render_template('mlmodel/profile.html', patient=pat)
+    return render_template('mlmodel/profile.html', patient=pat, user=session['user'])
 
 @admin1.route('/addpredict', methods = ['GET', 'POST'])
 def add_predict():
@@ -132,9 +132,10 @@ def add_predict():
     print(id)
     if request.method == 'POST':
         diagnose = request.form['predict']
-        conn.execute('''INSERT INTO diagnosis(pat_id, prediction)
-                             VALUES(?,?)''',
-                     (id, diagnose)).lastrowid
+        therapy = request.form['suggestion']
+        conn.execute('''INSERT INTO diagnosis(pat_id, prediction, note)
+                             VALUES(?,?,?)''',
+                     (id, diagnose, therapy)).lastrowid
         conn.commit()
         return  jsonify({'predict': diagnose})
     return jsonify({'error': 'Missing data!'})
@@ -178,7 +179,7 @@ def upload():
 @admin1.route('/doctor', methods=["GET"])
 def doctor():
     doc = conn.execute("SELECT * FROM doctor ORDER BY doc_id ASC").fetchall()
-    return render_template('admin/doctor.html', doctors=doc)
+    return render_template('admin/doctor.html', doctors=doc, user=session['user'])
 
 
 @admin1.route('/updatedoc', methods=['GET','POST'])
@@ -214,7 +215,7 @@ def deletedoc(id):
 def appointment():
     app = conn.execute(
         "SELECT p.*,d.*,a.* from appointment a LEFT JOIN patient p ON a.pat_id = p.pat_id LEFT JOIN doctor d ON a.doc_id = d.doc_id ORDER BY appointment_date DESC").fetchall()
-    return render_template('admin/appointment.html', appointments = app)
+    return render_template('admin/appointment.html', appointments = app, user=session['user'])
 
 
 @admin1.route('/deleteappoint/<id>/', methods = ['GET', 'POST'])

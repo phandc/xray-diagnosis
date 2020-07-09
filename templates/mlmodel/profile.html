@@ -167,7 +167,7 @@
 
       </section>
 
-   <h3 style="padding: 30px">   Patient's Chest-Xray Image  </h3>
+   <h3 style="padding-left: 190px; padding-bottom: 20px;">   Patient's Chest-Xray Image  </h3>
 
        <section>
          <!-- Page content-->
@@ -199,18 +199,27 @@
     <div class="loader" style="display:none;"></div>
 
 
-    <form >
-
-    <input  id="result" size="16" type="text" value="" readonly>
+     <form  class="form-horizontal" id="resultform" method="POST">
 
 
+                        <div class="form-group">
 
+                              <div class="col-lg-10">
 
-        </form>
-    <ul id="therapy">
+                                 <input name="result" id="result" size="16" type="text" value="" readonly>
 
+                                   </div>
+                           </div>
 
-    </ul>
+                          <div class="form-group">
+
+                              <div class="col-lg-10">
+                                 <textarea id = "therapy" required name="therapy" class="form-control" placeholder="" style="height: 250px; font-size: 18px"></textarea>
+                              </div>
+                           </div>
+
+                       </form>
+
 
      <button type="button" class="btn btn-primary btn-lg " id="btn-add_pred">Save Info</button>
 
