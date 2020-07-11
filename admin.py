@@ -224,3 +224,10 @@ def deleteappoint(id):
     conn.commit()
     flash('Doctor Deleted Successfully!')
     return redirect((url_for("admin.appointment")))
+
+
+
+
+
+
+
