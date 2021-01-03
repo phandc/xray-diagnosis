@@ -28,7 +28,7 @@ from werkzeug.utils import secure_filename
 
 admin1 = Blueprint("admin", __name__, static_folder='static', template_folder='templates')
 
-admin1.secret_key = "duyennguyen"
+admin1.secret_key = ""
 
 
 
