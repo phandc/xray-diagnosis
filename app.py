@@ -15,7 +15,7 @@ from doctor import doctor1
 
 
 app = Flask(__name__)
-app.secret_key = "duyennguyen"
+app.secret_key = ""
 
 app.register_blueprint(admin1, url_prefix="/admin")
 
